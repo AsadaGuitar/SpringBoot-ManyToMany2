@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+
+<form th:action="@{/create}"  th:method="post">
+	ユーザーネーム: <br>
+	<input type="text" name="userName" /><br>
+	フレンドネーム： <br>
+	<input type="text" name="friendName" /> <br>
+	ルームネーム： <br>
+	<input type="text" name="roomName" /> <br>
+	
+	<button type="submit">送信</button>
+	
+</form>
+</body>
+</html>
